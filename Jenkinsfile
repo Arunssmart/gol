@@ -5,7 +5,7 @@ pipeline {
     label "Windows_Slave"
   }
   
-  // start of stages : build, test, deploy ...
+  // start of stages : build, test, deploy ... yes deploy to test 
   stages {
     // start of stage : build
     stage('build') {
